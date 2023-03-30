@@ -64,11 +64,11 @@
 
 	
   <rect x="10" y="70" width="4.8330" height="4.8330" stroke="red" stroke-width="0.1" fill="none"/>
-  <text x="10.4" y="73.9" style="font-size:3pt;" fill="red">北</text>
+  <text x="10.4" y="73.9" style="font-size:3pt;" fill="blue">蔡</text>
   <rect x="10" y="74.8330" width="4.8330" height="4.8330" stroke="red" stroke-width="0.1" fill="none"/>
-  <text x="10.4" y="78.733" style="font-size:3pt;" fill="red">科</text>
+  <text x="10.4" y="78.733" style="font-size:3pt;" fill="blue">凱</text>
   <rect x="10" y="79.666" width="4.8330" height="4.8330" stroke="red" stroke-width="0.1" fill="none"/>
-  <text x="10.4" y="83.566" style="font-size:3pt;" fill="red">大</text>
+  <text x="10.4" y="83.566" style="font-size:3pt;" fill="blue">勛</text>
 
   <rect x="14.833" y="70" width="4.8330" height="4.8330" stroke="green" stroke-width="0.1" fill="none"/>
   <text x="15.233" y="73.9" style="font-size:3pt;" fill="green">電</text>
@@ -78,11 +78,11 @@
   <text x="15.233" y="83.566" style="font-size:3pt;" fill="green">所</text>
 
   <rect x="19.666" y="70" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
-  <text x="20.066" y="73.9" style="font-size:3pt;" fill="blue">蔡</text>
+  <text x="20.066" y="73.9" style="font-size:3pt;" fill="red">北</text>
   <rect x="19.666" y="74.8330" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
-  <text x="20.066" y="78.733" style="font-size:3pt;" fill="blue">凱</text>
+  <text x="20.066" y="78.733" style="font-size:3pt;" fill="red">科</text>
   <rect x="19.666" y="79.666" width="4.8330" height="4.8330" stroke="blue" stroke-width="0.1" fill="none"/>
-  <text x="20.066" y="83.566" style="font-size:3pt;" fill="blue">勛</text>
+  <text x="20.066" y="83.566" style="font-size:3pt;" fill="red">大</text>
 
 
 
