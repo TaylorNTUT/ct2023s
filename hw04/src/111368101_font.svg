@@ -2,7 +2,7 @@
 <svg width="100%" height="100%" version="1.1" xmlns="https://www.w3.org/2000/svg">
 	<metadata>
 
-		Project: My Font
+		Project: 111368101_font
 		Font exported on 2023-6-9 at 11:50:27
 
 		Created with Glyphr Studio - the free, web-based font editor
@@ -13,7 +13,7 @@
 
 	</metadata>
 	<defs>
-		<font id="My_Font" horiz-adv-x="1000">
+		<font id="111368101_font" horiz-adv-x="1000">
 			<font-face
 				units-per-em="1000"
 				cap-height="675"
@@ -22,7 +22,7 @@
 				descent="-300"
 				bbox="-26.1096, -13.9468, 762.5445, 517.1549"
 				unicode-range="U+20-126"
-				font-family = "My Font"
+				font-family = "111368101_font"
 				font-style = "Regular"
 				panose-1 = "2 0 0 0 0 0 0 0 0 0"
 				designer = ""
@@ -48,7 +48,7 @@
 				overline-position = ""
 				overline-thickness = "">
 				<font-face-src>
-					<font-face-name name="My Font" />
+					<font-face-name name="111368101_font" />
 				</font-face-src>
 			</font-face>
 
@@ -158,9 +158,9 @@
 		</font>
 	</defs>
 
-	<text x="100" y="150" style="font-size:48px;" font-family="My Font">My Font</text>
-	<text x="100" y="220" style="font-size:48px;" font-family="My Font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
-	<text x="100" y="290" style="font-size:48px;" font-family="My Font">abcdefghijklmnopqrstuvwxyz</text>
-	<text x="100" y="360" style="font-size:48px;" font-family="My Font">1234567890</text>
-	<text x="100" y="430" style="font-size:48px;" font-family="My Font">!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~</text>
+	<text x="100" y="150" style="font-size:48px;" font-family="111368101_font">111368101_font</text>
+	<text x="100" y="220" style="font-size:48px;" font-family="111368101_font">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+	<text x="100" y="290" style="font-size:48px;" font-family="111368101_font">abcdefghijklmnopqrstuvwxyz</text>
+	<text x="100" y="360" style="font-size:48px;" font-family="111368101_font">1234567890</text>
+	<text x="100" y="430" style="font-size:48px;" font-family="111368101_font">!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_`{|}~</text>
 </svg>
