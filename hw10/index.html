@@ -53,14 +53,14 @@
   {
       position:absolute;
       top:5%;
-      display:block; 
+      display:block;
       line-height:16px;
       width:45%;
       height:90%;
       background:#fff;
       box-sizing:border-box;
       text-align:center;
-      transition: all 0.3s ease-in 0s; 
+      transition: all 0.3s ease-in 0s;
       color:rgba(159,53,58,1);
       border:#888 1px solid;
       border-radius:3px;
@@ -101,11 +101,11 @@
 
   .twenty:hover {
       box-shadow: 0 0 5px 3px #f9eced;
-      color: cyan; 
+      color: cyan;
       text-shadow: 0 0 6px #FFFFFF, 0 0 6px #000000;
   }
 
-  .github-corner:hover 
+  .github-corner:hover
   .octo-arm {
     animation: octocat-wave 560ms ease-in-out
   }
@@ -121,12 +121,12 @@
     }
   }
   @media (max-width:500px) {
-    .github-corner:hover 
+    .github-corner:hover
     .octo-arm {
       animation:none
     }
 
-    .github-corner 
+    .github-corner
     .octo-arm {
       animation: octocat-wave 560ms ease-in-out
     }
@@ -135,9 +135,9 @@
   /* 波浪 */
   a {
     color:yellow;
-    text-decoration: none; 
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23fff' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E") repeat-x 0 100%; 
-    background-size:20px auto; 
+    text-decoration: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23fff' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E") repeat-x 0 100%;
+    background-size:20px auto;
     animation: waveMove 1s infinite linear;
   }
 
@@ -201,7 +201,7 @@
         </tr>
         <tr>
           <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>8</td>
           <td>Simple baseline - 完成 138 頁稿紙書寫 (製作個人手寫體 ttf、放在 hw10 作品集 + 計算誰的字與你的字最像，提供程式碼 + 上台報告)</td>
         </tr>
@@ -211,7 +211,7 @@
           <td>Medium baseline - 成功切割成 13759 張 png </td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>1</td>
           <td>Strong baseline - 打包成字型檔 </td>
         </tr>
@@ -225,12 +225,12 @@
       <hr>
       前往 <a href="https://github.com/你的帳號/ct2023s/hw10/src/ " target="_blank"> "計算誰的字與你的字最像" 程式碼 </a>。
 
-      <hr>      
+      <hr>
       前往 <a href="final.html"> 洛神賦 </a>。
 
       <hr>
 
-      世界少數民族語文研究院 Summer Institute of Linguistics <a href="https://en.wikipedia.org/wiki/SIL_Open_Font_License"> SIL 開源字型授權</a> 
+      世界少數民族語文研究院 Summer Institute of Linguistics <a href="https://en.wikipedia.org/wiki/SIL_Open_Font_License"> SIL 開源字型授權</a>
 
       <hr>
       <img src="OFL_logo_rect_color.svg" width="128pt" />
@@ -259,7 +259,7 @@
   d3.select("#myCheckbox7").on("change",update);
 
   update();
-  
+
   function update(){
 
     var score = 0;
@@ -269,14 +269,14 @@
     }
 
     if (d3.select("#myCheckbox2").property("checked")){
-      score += parseInt(d3.select('#m2').html());   
+      score += parseInt(d3.select('#m2').html());
     }
 
     if (d3.select("#myCheckbox3").property("checked")){
-      score += parseInt(d3.select('#m3').html());   
+      score += parseInt(d3.select('#m3').html());
     }
 
-    d3.select("#myTotal").html(score);    
+    d3.select("#myTotal").html(score);
   }
 </script>
 
